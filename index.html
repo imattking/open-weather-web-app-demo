@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="color-scheme" content="light dark">
+        <!-- Link to Style Sheet -->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+        <!-- Link to Font Awesome -->
+        <script src="https://kit.fontawesome.com/896571cd4b.js" crossorigin="anonymous"></script>
+
+        <title>Open Weather API - Weather Look-er-Up-er!</title>
+
+    </head>
+
+    <body>
+        <!-- <div id="mode-toggle"><i class="fa-regular fa-sun"><i class="fa-regular fa-moon"></i></i></div> -->
+        <section id="ui-section">
+            
+            <h1>Weather Look-er-Up-er!!</h1>
+            <!-- <form action=""> -->
+                <div class="feature-card">
+                    <p>Please select one of the following cities!</p>
+                    <select name="city-select" id="city-picker">
+                        <option value="default">select a city</option>
+                        <option value="Atlanta">Atlanta, Georgia</option>
+                        <option value="Paris">Paris, France</option>
+                        <option value="Tokyo">Tokyo, Japan</option>
+                    </select>
+                
+                </div>
+                <h3>— Or —</h3>
+                
+                <div class="feature-card">
+                    <p>Enter your zip code</p>
+                    <label for="zip-code"></label>
+                        <input type="text" id="zip-code" name="zip-code" placeholder="zip code">
+                    </label>
+                    <div class="button" id="zip-code-button" type="">Enter</div>
+                </div>
+
+                <h3>— Or —</h3>
+                
+                <div class="feature-card">
+                    <p>Look up weather by accessing your current location</p>
+                    <div class="button" id="geo-locate">Use My Current Location</div>
+                </div>
+            <!-- </form> -->
+              
+            <div id="results-section" class="feature-card">
+                <p id="user-location"></p>
+                <p id="results"></p>
+                <p id="skies"></p>
+                <p id="current-temp"></p>
+                <p id="feels-like"></p>
+            </div> 
+
+        </section>
+     
+
+        <script src="./assets/js/app.js"></script>
+    </body>
+
+</html>
