@@ -1,6 +1,6 @@
 # Open Weather Web App!
 
-The *Weather Look-er-Up-er* is a lightweight, fluid & responsive web app that allows the user to easily check weather conditions in his or her geographical location. It was built almost entirely with client-side scripting, a few meaningful API calls, and a lot of love!
+The *Weather Look-er-Up-er* is a lightweight, fluid & responsive web app that allows the user to easily check weather conditions in their geographical location. It was built almost entirely with client-side scripting, a few meaningful API calls, and a lot of love!
 
 **Link to project:** https://imattking-weather-app.netlify.app/
 
