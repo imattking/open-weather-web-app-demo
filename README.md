@@ -4,7 +4,7 @@ The *Weather Look-er-Up-er* is a lightweight, fluid & responsive web app that al
 
 **Link to project:** https://imattking-weather-app.netlify.app/
 
-![Weather App](https://raw.githubusercontent.com/imattking/open-weather-web-app-public-demo/main/weather-app.jpg)
+<img alt="Weather App Preview" src="https://raw.githubusercontent.com/imattking/open-weather-web-app-public-demo/main/weather-app.jpg" width="auto" height="350px">
 
 ## How It's Made:
 
